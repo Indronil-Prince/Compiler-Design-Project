@@ -1,0 +1,59 @@
+____________________INDRONIL's COMPILER!!!____________________
+
+f = 98 declared & assigned!
+ab = 1 declared & assigned!
+abc = 5 declared & assigned!
+variable 'ab' is redeclared
+valid declaration
+
+x declared!
+y declared!
+z declared!
+a declared!
+i declared!
+xyz declared!
+abcd declared!
+valid declaration
+
+This is a comment!
+ab = 0 assigned!
+y = 20 assigned!
+z = 50 assigned!
+ab = 34 assigned!
+ab = 34 assigned!
+
+For Loop!!
+Printing value     : x = 0
+Printing value     : x = 1
+Printing value     : x = 2
+Printing value     : x = 3
+Printing value     : x = 4
+Printing value     : x = 5
+Printing value     : x = 6
+Printing value     : x = 7
+Printing value     : x = 8
+Printing value     : x = 9
+Printing value     : x = 10
+
+For Loop!!
+Printing value     : i = 5
+Printing value     : i = 4
+Printing value     : i = 3
+Printing value     : i = 2
+Printing value     : i = 1
+Printing value     : i = 0
+x = 2 assigned!
+This var = ab
+ab = 34
+
+If Block
+IF condition false!
+
+Else Block
+Printing value     : z = 50
+Printing statement : greater!
+
+Switch case
+Case 2: Value of x = 2
+
+Successfully compiled!!!

@@ -1,0 +1,61 @@
+_MAIN_ ( )
+{
+	_INTEGER_ f _EQUAL_ 98, ab _EQUAL_ 1, abc _EQUAL_ 5 , ab _EQUAL_ 3 ;
+	_INTEGER_ x , y , z , a , i, xyz , abcd ;
+	
+	//start calculation
+
+	ab _EQUAL_ 0 ;
+	y _EQUAL_ 20 ;
+	z _EQUAL_ 10 _MULT_ 5 ;
+	
+	ab _EQUAL_ 10 _ADD_ 2 _POW_ 3 _MULT_ 3 ;
+
+	_FOR_ ( x _EQUAL_ 0 , x _LEQ_ 10, x _INC_ ) 
+	{
+		_PRINT_ x ; 
+	}
+	
+	_FOR_ ( i _EQUAL_ 5 , i _GEQ_ 0, i _DEC_ ) 
+	{
+		_PRINT_ i ; 
+	}
+	
+	x _EQUAL_ 2;
+	
+	_IF_ ab _GRT_ z _THEN_:
+	{
+		_PRINT_ ab ;
+		_PRINT_ "greater!" ;
+
+	}
+
+	_ELSE_
+	{
+		_PRINT_ z ;	
+		_PRINT_ "greater!";	
+	}
+
+	_SWITCH_ ( x )
+	{
+		_CASE_ 0 : 
+			_PRINT_ x ;
+			_BREAK_ ;
+
+		_CASE_ 1 : 
+			_PRINT_ x ;
+			_BREAK_ ;
+			
+		_CASE_ 2 : 
+			_PRINT_ x ;
+			_BREAK_ ;	
+
+		_CASE_ 3 : 
+			_PRINT_ x ;
+			_BREAK_ ;	
+
+		_DEFAULT_ :
+			_PRINT_ x ;
+			
+	}	
+}
